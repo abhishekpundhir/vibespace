@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 14% 10%;
+    --foreground: 210 11% 85%;
+
+    --card: 215 15% 12%;
+    --card-foreground: 210 11% 85%;
+
+    --popover: 215 15% 12%;
+    --popover-foreground: 210 11% 85%;
+
+    --primary: 262 84% 63%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 13% 16%;
+    --secondary-foreground: 210 11% 85%;
+
+    --muted: 217 19% 27%;
+    --muted-foreground: 215 16% 70%;
+
+    --accent: 262 60% 70%;
+    --accent-foreground: 220 14% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 21%;
+    --input: 220 14% 21%;
+    --ring: 262 84% 63%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-vibespace-dark-blue text-vibespace-light-text;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  /* Custom utility classes */
+  .vibespace-card {
+    @apply bg-vibespace-card-bg border border-vibespace-border rounded-lg p-6 shadow-lg;
+  }
+
+  .vibespace-card-hover {
+    @apply hover:border-vibespace-purple hover:shadow-xl transition-all duration-300;
+  }
+
+  .vibespace-button-primary {
+    @apply bg-vibespace-purple hover:bg-vibespace-light-purple text-white font-semibold py-2 px-4 rounded-md transition-all duration-300;
+  }
+
+  .vibespace-button-secondary {
+    @apply bg-vibespace-card-bg hover:bg-muted border border-vibespace-border text-vibespace-light-text font-semibold py-2 px-4 rounded-md transition-all duration-300;
+  }
+  
+  .logo-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background: linear-gradient(90deg, #9b87f5 0%, #c5b8fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .tech-icon {
+    filter: drop-shadow(0 0 8px rgba(155, 135, 245, 0.6));
+    transition: all 0.3s ease;
+  }
+
+  .tech-icon:hover {
+    filter: drop-shadow(0 0 12px rgba(155, 135, 245, 0.8));
+    transform: scale(1.05);
+  }
+}
