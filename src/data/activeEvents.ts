@@ -25,9 +25,9 @@ export const ensureActiveEvents = (existingEvents: Event[]): Event[] => {
   status: "active",
   maxTeamSize: 4,
   prizes: [
-    { place: "1st", description: "Excellence in Accessibility", "value": "₹4,000" },
-    { place: "2nd", description: "Pioneering Innovation in Accessibility", "value": "₹2,000" },
-    { place: "3rd", description: "Outstanding User Experience", "value": "₹1,000" }
+    { place: "1st", description: "Excellence in Accessibility", value: "₹4,000" },
+    { place: "2nd", description: "Pioneering Innovation in Accessibility", value: "₹2,000" },
+    { place: "3rd", description: "Outstanding User Experience", value: "₹1,000" }
   ],
   categories: ["AI", "Accessibility", "Web Scraping"],
   imageUrl: "https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=1500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
