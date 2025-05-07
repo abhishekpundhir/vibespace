@@ -46,7 +46,7 @@ export const mockEvents: Event[] = [
   {
     id: "3",
     title: "Major Project Submission",
-    description: "You Have to Submit Your Major Project and prapare a Detailed Presentation About Your Projec.",
+    description: "You Have to Submit Your Major Project and prapare a Detailed Presentation About Your Project.",
     rules: "- Project Should Be Functional./n- PPT is Must/n- Code of Project should be clean and mannerd.",
     prerequisites: "- Development Skills./n- PPT/n- Understanding of Project",
     startDate: "2025-05-20T09:00:00Z",
