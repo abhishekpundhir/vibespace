@@ -43,25 +43,25 @@ export const mockEvents: Event[] = [
     ], 
     categories: ["AI", "Machine Learning", "NLP"]
   },
-  {
-    id: "3",
-    title: "Major Project Submission",
-    description: "You are required to submit your major project and craft a comprehensive presentation detailing its intricacies.",
-    rules: "- Project Should Be Functional./n- PPT is Must/n- Code of Project should be clean and mannerd.",
-    prerequisites: "- Development Skills./n- PPT/n- Understanding of Project",
-    startDate: "2025-05-20T09:00:00Z",
-    endDate: "2025-05-22T17:00:00Z",
-    location: "Online",
-    maxTeamSize: 3,
-    createdAt: "2025-04-10T11:15:00Z",
-    createdBy: "Mr Vineet Mishra",
-    status: "active",
-    imageUrl: "https://images.unsplash.com/photo-1698919585695-546e4a31fc8f?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    prizes: [
-      { place: "1st Place", description: "Cash Prize", value: "₹1000" }
-    ],
-    categories: ["Major Project", "UX/UI" , "Development"]
-  },
+{
+  id: "3",
+  title: "Major Project Submission",
+  description: "You are invited to submit your major project along with a comprehensive presentation that highlights its key features and complexities.",
+  rules: "- The project must be fully functional.\n- A PowerPoint presentation is mandatory.\n- The project's code should be clean, well-organized, and maintainable.",
+  prerequisites: "- Strong development skills.\n- A well-prepared PowerPoint presentation.\n- A deep understanding of the project.",
+  startDate: "2025-05-20T09:00:00Z",
+  endDate: "2025-05-22T17:00:00Z",
+  location: "Online",
+  maxTeamSize: 3,
+  createdAt: "2025-04-10T11:15:00Z",
+  createdBy: "Mr. Vineet Mishra",
+  status: "active",
+  imageUrl: "https://images.unsplash.com/photo-1698919585695-546e4a31fc8f?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  prizes: [
+    { place: "1st Place", description: "Cash Prize", value: "₹1,000" }
+  ],
+  categories: ["Major Project", "UX/UI", "Development"]
+},
   {
     id: "4",
     title: "Bug Hunting",
@@ -81,25 +81,25 @@ export const mockEvents: Event[] = [
     ],
     categories: ["Mobile Development", "UX/UI"]
   },
-  {
-    id: "5",
-    title: "AI Agent Development",
-    description: "Design and develop an intelligent AI agent that seamlessly automates user tasks, streamlines workflows, and optimizes time management, ensuring a smoother, more efficient experience.",
-    rules: "- Website must be native or hybrid mobile application\n- AI Models Has Allowed to use\n- VS Code \n- Code must be well-documented",
-    prerequisites: "VS Code  development frameworks (Node, React, python).",
-    startDate: "2025-06-20T09:00:00Z",
-    endDate: "2025-06-22T17:00:00Z",
-    location: "Online , At APGI Campus Artoni",
-    maxTeamSize: 4,
-    createdAt: "2025-04-10T11:15:00Z",
-    createdBy: "Miss Himanshi",
-    status: "active",
-    imageUrl: "https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    prizes: [
-      { place: "1st Place", description: "Cash Prize", value: "₹1000" }
-    ],
-    categories: ["AI Agent Development", "UX/UI" , "Python"]
-  },
+{
+  id: "5",
+  title: "AI Agent Development",
+  description: "Design and develop an advanced AI agent that effortlessly automates user tasks, optimizes workflows, and enhances time management, ensuring a seamless and efficient user experience.",
+  rules: "- The application must be a native or hybrid mobile app.\n- AI models are permitted for use.\n- Development should be done using VS Code.\n- Code must be well-documented and organized.",
+  prerequisites: "Familiarity with VS Code and development frameworks (Node.js, React, Python).",
+  startDate: "2025-06-20T09:00:00Z",
+  endDate: "2025-06-22T17:00:00Z",
+  location: "Online, APGI Campus, Artoni",
+  maxTeamSize: 4,
+  createdAt: "2025-04-10T11:15:00Z",
+  createdBy: "Miss Himanshi",
+  status: "active",
+  imageUrl: "https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  prizes: [
+    { place: "1st Place", description: "Cash Prize", value: "₹1,000" }
+  ],
+  categories: ["AI Agent Development", "UX/UI", "Python"]
+},
   {
     id: "6",
     title: "AI for Social Good Hackathon",
