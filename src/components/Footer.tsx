@@ -57,7 +57,20 @@ const Footer = () => {
               <span className="text-xs">Careers</span>
             </Link>
           </div>
-        
+        </div>
+
+                <div className=" flex  pt-5 space-x-8 justify-start md:justify-start md:order-2">
+          <span className="flex items-center justify-center h-14 w-14 rounded-md  p-2 shadow-lg tech-icon">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white">
+                <path fill="#FFFFFF" d="M70,30 L130,30 L160,80 L100,170 L40,80 Z" />
+                <path fill="#a78bfa" d="M80,40 L120,40 L140,75 L100,140 L60,75 Z" />
+                <circle cx="100" cy="80" r="15" fill="#FFFFFF" />
+                <rect x="85" y="105" width="30" height="10" rx="5" fill="#FFFFFF" />
+                <path d="M65,85 L80,65 M135,85 L120,65" stroke="#FFFFFF" strokeWidth="4" />
+              </svg>
+            </span>
+            <b className="flex justify-center items-center">Developed By Team VibeSpace</b>
+          </div>
         </div>
       </div>
     </footer>
