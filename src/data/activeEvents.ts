@@ -14,26 +14,26 @@ export const ensureActiveEvents = (existingEvents: Event[]): Event[] => {
   // Additional active events to add if needed
   const additionalActiveEvents: Event[] = [
     {
-      id: `active-event-1-${Date.now()}`,
-      title: "Web Scraping",
-      description: "Use Python Libraries to Extract Data From Website and Export to a new framework smoothly with AI Automation",
-      rules: "Open to designers and developers. Apps must be for iOS, Android, or cross-platform. Submissions must include a working prototype and accessibility statement.",
-      prerequisites: "AI experience. Understanding of Python.",
-      startDate: new Date(Date.now() - 86400000 * 1).toISOString(), // yesterday
-      endDate: new Date(Date.now() + 86400000 * 7).toISOString(), // 7 days from now
-      location: "Online",
-      status: 'active',
-      maxTeamSize: 4,
-      prizes: [
-        { place: "1st", description: "Best Accessible App", value: "₹4,000" },
-        { place: "2nd", description: "Innovation in Accessibility", value: "₹2,000" },
-        { place: "3rd", description: "User Experience Award", value: "₹1,000" }
-      ],
-      categories: ["AI", "accessibility", "Web Scraping"],
-      imageUrl: "https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=1500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      createdAt: new Date(Date.now() - 86400000 * 15).toISOString(),
-      createdBy: "Miss Jyoti"
-    },
+  id: `active-event-1-${Date.now()}`, 
+  title: "Web Scraping Mastery", 
+  description: "Leverage Python libraries to efficiently extract data from websites and seamlessly integrate it into new frameworks using AI-driven automation.", 
+  rules: "Open to designers and developers. Submissions must be compatible with iOS, Android, or cross-platform solutions. Entries should include a functional prototype and an accessibility statement.",
+  prerequisites: "Proficiency in AI and a solid understanding of Python.",
+  startDate: new Date(Date.now() - 86400000 * 1).toISOString(), // yesterday
+  endDate: new Date(Date.now() + 86400000 * 7).toISOString(), // 7 days from now
+  location: "Online",
+  status: "active",
+  maxTeamSize: 4,
+  prizes: [
+    { place: "1st", description: "Excellence in Accessibility", "value": "₹4,000" },
+    { place: "2nd", description: "Pioneering Innovation in Accessibility", "value": "₹2,000" },
+    { place: "3rd", description: "Outstanding User Experience", "value": "₹1,000" }
+  ],
+  categories: ["AI", "Accessibility", "Web Scraping"],
+  imageUrl: "https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=1500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  createdAt: new Date(Date.now() - 86400000 * 15).toISOString(),
+  createdBy: "Miss Jyoti"
+},
     {
       id: `active-event-2-${Date.now()}`,
       title: "Web3 Development Hackathon",
