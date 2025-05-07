@@ -289,10 +289,9 @@ export const mockAdmins = [
   },
   {
     id: "10",
-    username: "vanshi",
-    password: "vanshi@123",
-    name: "Vanshi Darling"
-  },
-
+    username: "tanu",
+    password: "tanu@123",
+    name: "Princess"
+  }
 ];
 
