@@ -46,7 +46,7 @@ export const mockEvents: Event[] = [
   {
     id: "3",
     title: "Major Project Submission",
-    description: "You Have to Submit Your Major Project and prapare a Detailed Presentation About Your Project.",
+    description: "You are required to submit your major project and craft a comprehensive presentation detailing its intricacies.",
     rules: "- Project Should Be Functional./n- PPT is Must/n- Code of Project should be clean and mannerd.",
     prerequisites: "- Development Skills./n- PPT/n- Understanding of Project",
     startDate: "2025-05-20T09:00:00Z",
@@ -65,7 +65,7 @@ export const mockEvents: Event[] = [
   {
     id: "4",
     title: "Bug Hunting",
-    description: "Design and develop a System Using Tailwing UI and Backend and other Team mates well hunt the bugs in the system",
+    description: "You are tasked with designing and developing a system using Tailwind UI for the frontend and a robust backend, while your teammates will focus on meticulously identifying and resolving any bugs within the system.",
     rules: "- Website must be native or hybrid mobile application\n- AI use is Banned\n- VS Code \n- Code must be well-documented",
     prerequisites: "VS Code  development frameworks (Node, React, Java).",
     startDate: "2025-06-20T09:00:00Z",
@@ -84,7 +84,7 @@ export const mockEvents: Event[] = [
   {
     id: "5",
     title: "AI Agent Development",
-    description: "Design and develop a AI Agent that helps user to automate there task make her work smooth and save there time.",
+    description: "Design and develop an intelligent AI agent that seamlessly automates user tasks, streamlines workflows, and optimizes time management, ensuring a smoother, more efficient experience.",
     rules: "- Website must be native or hybrid mobile application\n- AI Models Has Allowed to use\n- VS Code \n- Code must be well-documented",
     prerequisites: "VS Code  development frameworks (Node, React, python).",
     startDate: "2025-06-20T09:00:00Z",
