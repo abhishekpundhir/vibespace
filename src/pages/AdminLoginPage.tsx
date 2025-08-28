@@ -99,7 +99,7 @@ const AdminLoginPage = () => {
         </div>
 
         <div className="access text-center">
-        <span> For Testing Login </span><br />
+        <span> For Test Login </span><br />
         <span>Username: <b className='underline'>artist</b> Password: <b className='underline'>artist@123</b></span></div>
       </Card>
     </div>
