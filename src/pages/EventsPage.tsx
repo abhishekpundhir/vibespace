@@ -31,17 +31,17 @@ const EventsPage = () => {
   };
   
   return (
-    <div className="container mx-auto animate-fade-in">
-      <div className=" flex flex-col md:flex-row justify-center items-center hhh md:items-center mb-8">
+    <div className="container mx-auto animate-fade-in ">
+      {/* <div className=" flex flex-col md:flex-row justify-center items-center hhh md:items-center mb-8">
         <div className=""> 
           <h1 className="text-3xl font-bold mb-2 text-white">Welcome To VibeSpace.Com</h1>
           <p className="text-vibespace-light-text">Dive Into Innovation — Explore Campus Hackathons, Showcase Your Ideas, and Let Your Code Make the Noise !</p>
         </div>
-      </div>
+      </div> */}
     
       {activeEvents.length > 0 && (
         <div className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-white">Active Events</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-white text-center">Active Events</h2>
           <div className="relative">
             <Carousel className="w-full">
               <CarouselContent className="-ml-4">

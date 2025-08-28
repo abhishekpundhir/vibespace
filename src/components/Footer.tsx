@@ -13,7 +13,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-vibespace-card-bg border-t border-vibespace-border mt-auto">
+    <footer className="bg-[rgba(15,15,20,0.55)]  backdrop-blur-xl mt-auto">
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex items-center">
@@ -71,7 +71,7 @@ const Footer = () => {
                 <path d="M65,85 L80,65 M135,85 L120,65" stroke="#FFFFFF" strokeWidth="4" />
               </svg>
             </span>
-            <b className="flex items-center">Developed By Team VibeSpace</b>
+            <b className="flex items-center">Developed By Ashlye</b>
           </div>
         </div>
 

@@ -53,7 +53,7 @@ const AdminLoginPage = () => {
   
   return (
     <div className="container mx-auto max-w-md py-12 animate-fade-in">
-      <Card className="vibespace-card">
+      <Card className="vibespace-card ">
         <div className="p-8">
           <div className="text-center mb-8">
             <h1 className="text-2xl font-bold mb-2 text-white">Admin Login</h1>
@@ -95,8 +95,12 @@ const AdminLoginPage = () => {
               </Button>
             </form>
           </Form>
-
+          
         </div>
+
+        <div className="access text-center">
+        <span> For Testing Login </span><br />
+        <span>Username: <b className='underline'>artist</b> Password: <b className='underline'>artist@123</b></span></div>
       </Card>
     </div>
   );

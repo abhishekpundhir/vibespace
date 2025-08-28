@@ -10,7 +10,7 @@ const Navbar = () => {
   const { isAdmin, logout } = useApp();
 
   return (
-    <nav className="bg-vibespace-card-bg border-b border-vibespace-border sticky top-0 z-50 w-full">
+    <nav className="bg-[rgba(15,15,20,0.55)]  backdrop-blur-xl sticky top-0 z-50 p-2  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
